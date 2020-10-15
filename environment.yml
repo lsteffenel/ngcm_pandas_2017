@@ -1,28 +1,40 @@
-name: ngcm
+#name: ngcm
+#channels:
+#  - conda-forge
+#  - defaults
+name: example-environment
 channels:
   - conda-forge
-  - defaults
 dependencies:
-- python=3.6
-#- cython
-#- dask
-#- ipython
-#- ipywidgets
-#- jupyter
-- line_profiler
-- matplotlib
-#- notebook
-#- numba 
-#- numexpr
-- numpy
-- pandas
-- pandas-datareader
-- pip
-#- pprofile
-- pyzmq
-- scikit-learn
-- scipy
-- seaborn
-- snakeviz
+  - numpy
+  - psutil
+  - toolz
+  - matplotlib
+  - dill
+  - pandas
+  - partd
+  - bokeh
+  - dask
+#dependencies:
+#- python=3.6
+##- cython
+##- dask
+##- ipython
+##- ipywidgets
+##- jupyter
+#- line_profiler
+#- matplotlib
+##- notebook
+##- numba 
+##- numexpr
+#- numpy
+#- pandas
+#- pandas-datareader
+#- pip
+##- pprofile
+#- pyzmq
+#- scikit-learn
+#- scipy
+#- seaborn
+#- snakeviz
 #- sympy
-
